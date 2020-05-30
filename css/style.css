@@ -203,3 +203,31 @@ hr.socket {
     border-top: .2rem solid #666b71;
     margin-top: 3rem;
 }
+
+@media (max-width: 767px) {
+    .caption h1 {
+        font-size: 2.3rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+
+    .caption h3 {
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .btn-lg {
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .narrow h1 {
+        font-size: 2rem;
+    }
+
+    .clients img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+}
